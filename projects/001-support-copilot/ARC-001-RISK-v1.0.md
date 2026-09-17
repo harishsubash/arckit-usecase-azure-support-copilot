@@ -26,26 +26,15 @@ Scoring: Likelihood (1–5) × Impact (1–5) = Score. Score ≥ 15 is High, 8�
 
 ## Risk Heat Summary
 
-```mermaid
-quadrantChart
-    title Risk Likelihood vs Impact
-    x-axis Low Impact --> High Impact
-    y-axis Low Likelihood --> High Likelihood
-    quadrant-1 Monitor Closely
-    quadrant-2 Critical - Mitigate First
-    quadrant-3 Low Priority
-    quadrant-4 Contain Impact
-    "Hallucinated answer": [0.9, 0.65]
-    "Prompt injection": [0.75, 0.62]
-    "PII leakage": [0.75, 0.58]
-    "KB staleness": [0.55, 0.6]
-    "Cost overrun": [0.55, 0.55]
-    "Automation bias": [0.75, 0.68]
-    "Service outage": [0.5, 0.35]
-    "Skill erosion": [0.45, 0.3]
-    "Regulatory objection": [0.75, 0.4]
-    "Vendor concentration": [0.5, 0.32]
-```
+Likelihood and Impact bucketed as Low (1–2) / Medium (3) / High (4–5), from the scores in the Register above.
+
+| Likelihood \ Impact | Low | Medium | High |
+|---|---|---|---|
+| **High** | — | — | — |
+| **Medium** | — | RISK-04 KB staleness<br>RISK-05 Cost overrun | RISK-01 Hallucinated answer<br>RISK-02 Prompt injection<br>RISK-03 PII leakage<br>RISK-06 Automation bias |
+| **Low** | — | RISK-07 Service outage<br>RISK-08 Skill erosion<br>RISK-10 Vendor concentration | RISK-09 Regulatory objection |
+
+RISK-01 (Hallucinated answer) is the single highest-scoring risk and is mitigated first — grounding-only generation, the mandatory agent-approval gate, and the offline groundedness eval gate all exist specifically to hold this one down.
 
 ## Review Cadence
 
