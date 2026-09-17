@@ -28,6 +28,25 @@ Meridian Workspace (illustrative company) runs a 40-agent support team handling 
 
 ## Power/Interest Summary
 
+```mermaid
+quadrantChart
+    title Stakeholder Power vs Interest
+    x-axis Low Interest --> High Interest
+    y-axis Low Influence --> High Influence
+    quadrant-1 Manage Closely
+    quadrant-2 Keep Satisfied
+    quadrant-3 Monitor
+    quadrant-4 Keep Informed
+    "Head of Support": [0.85, 0.95]
+    "Privacy Officer": [0.60, 0.90]
+    "Engineering Lead": [0.95, 0.68]
+    "CFO": [0.30, 0.42]
+    "Security team": [0.15, 0.28]
+    "Legal": [0.40, 0.12]
+    "Support Agents": [0.65, 0.38]
+    "Customers": [0.95, 0.12]
+```
+
 |  | **Low Interest** | **High Interest** |
 |---|---|---|
 | **High Influence** | Keep Satisfied<br>— *(none currently — all high-influence stakeholders are also highly engaged)* | Manage Closely<br>— Head of Customer Support<br>— Data Privacy Officer<br>— Engineering Lead |

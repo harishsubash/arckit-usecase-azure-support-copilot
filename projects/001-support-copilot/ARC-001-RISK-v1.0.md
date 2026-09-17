@@ -26,6 +26,27 @@ Scoring: Likelihood (1–5) × Impact (1–5) = Score. Score ≥ 15 is High, 8�
 
 ## Risk Heat Summary
 
+```mermaid
+quadrantChart
+    title Risk Likelihood vs Impact
+    x-axis Low Impact --> High Impact
+    y-axis Low Likelihood --> High Likelihood
+    quadrant-1 Monitor Closely
+    quadrant-2 Critical - Mitigate First
+    quadrant-3 Low Priority
+    quadrant-4 Contain Impact
+    "KB staleness": [0.42, 0.55]
+    "Cost overrun": [0.58, 0.42]
+    "Hallucinated answer": [0.95, 0.62]
+    "Prompt injection": [0.80, 0.50]
+    "PII leakage": [0.65, 0.60]
+    "Automation bias": [0.90, 0.40]
+    "Service outage": [0.55, 0.30]
+    "Skill erosion": [0.40, 0.20]
+    "Vendor concentration": [0.62, 0.12]
+    "Regulatory objection": [0.85, 0.25]
+```
+
 Likelihood and Impact bucketed as Low (1–2) / Medium (3) / High (4–5), from the scores in the Register above.
 
 | Likelihood \ Impact | Low | Medium | High |
