@@ -32,19 +32,19 @@ quadrantChart
     x-axis Low Impact --> High Impact
     y-axis Low Likelihood --> High Likelihood
     quadrant-1 Monitor Closely
-    quadrant-2 Critical — Mitigate First
+    quadrant-2 Critical - Mitigate First
     quadrant-3 Low Priority
     quadrant-4 Contain Impact
-    Hallucinated answer: [0.9, 0.6]
-    Prompt injection: [0.75, 0.6]
-    PII leakage: [0.75, 0.6]
-    KB staleness: [0.55, 0.6]
-    Cost overrun: [0.55, 0.6]
-    Automation bias: [0.75, 0.6]
-    Service outage: [0.5, 0.35]
-    Skill erosion: [0.5, 0.35]
-    Regulatory objection: [0.75, 0.35]
-    Vendor concentration: [0.5, 0.35]
+    "Hallucinated answer": [0.9, 0.65]
+    "Prompt injection": [0.75, 0.62]
+    "PII leakage": [0.75, 0.58]
+    "KB staleness": [0.55, 0.6]
+    "Cost overrun": [0.55, 0.55]
+    "Automation bias": [0.75, 0.68]
+    "Service outage": [0.5, 0.35]
+    "Skill erosion": [0.45, 0.3]
+    "Regulatory objection": [0.75, 0.4]
+    "Vendor concentration": [0.5, 0.32]
 ```
 
 ## Review Cadence

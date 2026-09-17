@@ -31,7 +31,7 @@ flowchart TB
         EVAL[Evaluation Harness<br/>offline groundedness checks]
     end
 
-    subgraph Retrieval & Generation
+    subgraph "Retrieval & Generation"
         SEARCH[Azure AI Search<br/>vector + hybrid index]
         AOAI[Azure OpenAI Service<br/>chat + embeddings models]
     end

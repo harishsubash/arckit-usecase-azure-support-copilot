@@ -37,14 +37,14 @@ quadrantChart
     quadrant-2 Keep Satisfied
     quadrant-3 Monitor
     quadrant-4 Keep Informed
-    Head of Support: [0.9, 0.85]
-    Support Agents: [0.85, 0.5]
-    Privacy Officer: [0.7, 0.85]
-    Engineering Lead: [0.75, 0.8]
-    CFO: [0.5, 0.55]
-    Customers: [0.9, 0.15]
-    Security team: [0.55, 0.55]
-    Legal: [0.5, 0.5]
+    "Head of Support": [0.9, 0.85]
+    "Support Agents": [0.85, 0.5]
+    "Privacy Officer": [0.7, 0.85]
+    "Engineering Lead": [0.75, 0.8]
+    "CFO": [0.5, 0.55]
+    "Customers": [0.9, 0.15]
+    "Security team": [0.55, 0.5]
+    "Legal": [0.48, 0.45]
 ```
 
 ## Engagement Cadence
