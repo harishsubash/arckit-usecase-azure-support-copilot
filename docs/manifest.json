@@ -1,0 +1,88 @@
+{
+  "generated": "2026-09-17T11:14:41.000Z",
+  "repository": {
+    "name": "arckit-usecase-azure-support-copilot"
+  },
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
+  "guides": [],
+  "roleGuides": [],
+  "global": [
+    {
+      "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
+      "title": "Architecture Principles",
+      "category": "Governance",
+      "documentId": "ARC-000-PRIN-v1.0"
+    }
+  ],
+  "globalExternal": [],
+  "typeCategories": {
+    "PRIN": "Governance",
+    "STKE": "Discovery",
+    "REQ": "Discovery",
+    "RISK": "Governance",
+    "SOBC": "Planning",
+    "STRAT": "Planning",
+    "PLAT": "Architecture",
+    "ADR": "Architecture"
+  },
+  "projects": [
+    {
+      "id": "001-support-copilot",
+      "name": "Support Copilot",
+      "documents": [
+        {
+          "path": "projects/001-support-copilot/ARC-001-PLAT-v1.0.md",
+          "title": "Platform Design",
+          "category": "Architecture",
+          "documentId": "ARC-001-PLAT-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/ARC-001-REQ-v1.0.md",
+          "title": "Requirements",
+          "category": "Discovery",
+          "documentId": "ARC-001-REQ-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/ARC-001-RISK-v1.0.md",
+          "title": "Risk Register",
+          "category": "Governance",
+          "documentId": "ARC-001-RISK-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/ARC-001-SOBC-v1.0.md",
+          "title": "Business Case",
+          "category": "Planning",
+          "documentId": "ARC-001-SOBC-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/ARC-001-STKE-v1.0.md",
+          "title": "Stakeholder Analysis",
+          "category": "Discovery",
+          "documentId": "ARC-001-STKE-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/ARC-001-STRAT-v1.0.md",
+          "title": "Architecture Strategy",
+          "category": "Planning",
+          "documentId": "ARC-001-STRAT-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/decisions/ARC-001-ADR-001-v1.0.md",
+          "title": "ADR-001: Use Azure AI Search for RAG retrieval instead of a self-hosted vector database",
+          "category": "Architecture",
+          "documentId": "ARC-001-ADR-001-v1.0"
+        },
+        {
+          "path": "projects/001-support-copilot/decisions/ARC-001-ADR-002-v1.0.md",
+          "title": "ADR-002: Confidence-threshold handoff to human agents instead of full AI autonomy",
+          "category": "Architecture",
+          "documentId": "ARC-001-ADR-002-v1.0"
+        }
+      ]
+    }
+  ],
+  "dependencyGraph": {
+    "nodes": {},
+    "edges": []
+  }
+}
